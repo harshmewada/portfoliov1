@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  flex-shrink: 0;
+  width: 50vw;
+  border: 1px solid red;
+  background-color: #f2f2f2;
+  height: 60vh;
+  border-radius: 10px;
+  margin-left: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.change {
+}
+.change:after {
+  content: "designer";
+  animation: spin 5s linear infinite;
+}
+@keyframes spin {
+  0% {
+    content: "designer";
+  }
+
+  25% {
+    content: "des1gner.";
+  }
+  30% {
+    content: "des19ner.";
+  }
+  35% {
+    content: "de519ne7.";
+  }
+  50% {
+    content: "de5%9n37.";
+  }
+  55% {
+    content: "dev9n3{r.";
+  }
+  60% {
+    content: "deve10per.";
+  }
+  80% {
+    content: "developer.";
+  }
+  90% {
+    content: "developer.";
+  }
+  100% {
+    content: "developer.";
+  }
+}
